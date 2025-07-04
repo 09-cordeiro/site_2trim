@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tutoriais para Mecânico</title>
+    <link rel="stylesheet" href="tutors.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/Design sem nome.jpg"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <!-- cabeção -->
+    <header class="container-cabecalho">
+      <img src="assets/Design sem nome.jpg" alt="chave de roda" class="im1" />
+
+      <h3>
+        INSTRUÇÕES <br />
+        DE MECÂNICA
+      </h3>
+
+      <div class="abobora">
+        <a href="inicio.html" class="nav-link" target="_blank">Inicio</a>
+        <a href="tutors.html" class="nav-link">Tutoriais</a>
+        <a href="contat.html" class="nav-link" target="_blank">Contato</a>
+      </div>
+    </header>
+
+    <!-- navegação -->
+    <nav class="container-navegacao">
+      <div class="letra">
+        <h1>Aprenda Mecânica Fácil</h1>
+        <h3>Tutoriais:</h3>
+      </div>
+    </nav>
+
+    <!-- conteudo -->
+    <section class="content">
+      <article class="servico">
+        <img src="assets/óleo.jpg" alt=" óleo" class="icone" />
+        <h2>Troca de óleo</h2>
+        <p>Passo a passo para mudança de óleo</p>
+        <button onclick="mostrarConteudo('oleo')" class="button">
+          Ver conteúdo
+        </button>
+      </article>
+
+      <div class="conteudo" id="oleo">
+        <ol>
+          <li>Estacione o veículo em local plano e desligue o motor.</li>
+          <li>Levante o carro com um macaco, se necessário.</li>
+          <li>Coloque um recipiente sob o bujão do cárter.</li>
+          <li>Retire o bujão e deixe o óleo velho escorrer.</li>
+          <li>Recoloque o bujão e aperte bem.</li>
+          <li>Troque o filtro de óleo.</li>
+          <li>Adicione o óleo novo pela tampa superior.</li>
+          <li>Verifique o nível com a vareta e complete, se necessário.</li>
+        </ol>
+      </div>
+
+      <article class="servico">
+        <img src="assets/peneu.jpg" alt="pneu" class="icone" />
+        <h2>Troca de pneu</h2>
+        <p>Aprenda a trocar pneus com segurança</p>
+        <button onclick="mostrarConteudo('pneu')" class="button">
+          Ver conteúdo
+        </button>
+      </article>
+
+      <div class="conteudo" id="pneu">
+        <ol>
+          <li>Estacione o carro e ligue o pisca-alerta.</li>
+          <li>Coloque o triângulo de sinalização.</li>
+          <li>Afrouxe os parafusos da roda antes de suspender o carro.</li>
+          <li>Use o macaco para levantar o veículo.</li>
+          <li>Retire os parafusos e a roda danificada.</li>
+          <li>Coloque o estepe e parafuse novamente.</li>
+          <li>Baixe o carro com cuidado.</li>
+          <li>Finalize apertando os parafusos com força.</li>
+        </ol>
+      </div>
+
+      <article class="servico">
+        <img src="assets/bateria.jpg" alt="bateria" class="icone" />
+        <h2>Bateria</h2>
+        <p>Como lidar com problemas na bateria</p>
+        <button onclick="mostrarConteudo('bateria')" class="button">
+          Ver conteúdo
+        </button>
+      </article>
+
+      <div class="conteudo" id="bateria">
+        <ol>
+          <li>Verifique se os cabos da bateria estão bem conectados.</li>
+          <li>Use um multímetro para medir a voltagem (12,6V ou mais = ok).</li>
+          <li>
+            Se necessário, faça uma recarga com um carregador ou cabo auxiliar.
+          </li>
+          <li>Evite deixar faróis ou luzes acesas com o motor desligado.</li>
+          <li>
+            Substitua a bateria se ela estiver muito velha (3 anos ou mais).
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- conosco -->
+    <section class="contato">
+      <a href="contat.html" class="tutors" target="_blank">
+        <h1>Fale conosco</h1>
+      </a>
+    </section>
+
+    <!-- rodapé -->
+    <footer>Instruções da Mecânica &copy; 2025</footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>

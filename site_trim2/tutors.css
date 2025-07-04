@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 0, 0);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* cabeçalho */
+.container-cabecalho {
+  top: 0;
+  left: auto;
+  display: flex;
+  text-align: center;
+  background-color: #113758;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+  transition: transform 0.2s ease;
+}
+
+.nav-link.active {
+  transform: scale(1.3);
+  color: #ffd700;
+  /* destaque, opcional */
+}
+
+.im1 {
+  width: 70px;
+}
+
+.container-cabecalho h3 {
+  font-weight: 600;
+  font-size: 2em;
+  color: #ffffff;
+}
+
+.abobora a {
+  font-size: 1.5em;
+  margin: 100px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.fig {
+  width: 100px;
+}
+
+a:hover {
+  background-color: aqua;
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px rgb(0, 0, 0);
+  color: black;
+}
+
+/* navegação */
+.container-navegacao {
+  text-align: center;
+  padding: 300px;
+  background-image: url(assets/m.webp);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.letra {
+  color: rgb(255, 255, 255);
+  font-size: 2em;
+}
+
+/* conteudo */
+.content {
+  background-color: #113758;
+  overflow: auto;
+}
+
+.button {
+  background-color: #ffd700;
+  border-radius: 15px;
+  text-shadow: black;
+}
+
+.button:hover {
+  background-color: #113758;
+  color: white;
+}
+
+.conteudo {
+  display: none;
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.servico {
+  float: center;
+  margin: 60px auto;
+  background-color: #ffffff;
+  width: 50%;
+  padding: 50px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.servico .icone {
+  margin-bottom: 10px;
+  width: 100px;
+}
+
+/* contatos */
+.contato {
+  background-color: #ffffff;
+  padding: 50px;
+  text-align: center;
+}
+
+.tutors {
+  text-decoration: none;
+  color: black;
+}
+
+/* rodapé */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #113758;
+  color: gray;
+}
